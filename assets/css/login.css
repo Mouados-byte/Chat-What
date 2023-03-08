@@ -1,0 +1,85 @@
+
+.container {
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: #f3f3f3;
+    display: none;
+  }
+
+  
+  .preloader {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #333;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  .imagelogin{
+    width: 100px;
+    height: 100px;
+  }
+
+  textarea{
+    height: 80px;
+  }
+  
+  input[type="radio"]{
+    margin-bottom: 20px;
+  }
+
+  textarea,
+  input[type="email"],
+  input[type="tel"],
+  input[type="text"],
+  input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+  }
+
+  textarea,
+  input[type="email"],
+  input[type="text"],
+  input[type="password"] {
+    background-color: #f3f3f3;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
